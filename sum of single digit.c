@@ -1,6 +1,6 @@
 //sum of single digit
 #include<stdio.h>
-void main()
+int main()
 {
 	int n,i,sum=0,r;
 	scanf("%d",&n);
@@ -16,5 +16,6 @@ void main()
 		}
 		n=sum;
 	}
-	printf("\n%d",sum);		
+	printf("\n%d",sum);
+	return 0;
 }
