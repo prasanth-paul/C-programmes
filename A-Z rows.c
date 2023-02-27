@@ -9,7 +9,7 @@ int main()
 	     {
 		   printf("%c ",'A'+j-1);
 	     }
-	     printf("\n");
-	  return 0;   
+	     printf("\n");  
 	}
+	return 0;
 }
