@@ -1,9 +1,9 @@
 //sum of single digit
 #include<stdio.h>
-main(){
-	// to print 1 2 3 4 5
+void main()
+{
 	int n,i,sum=0,r;
-	scanf("%d",&n);   // 123,   12,   1  , 0
+	scanf("%d",&n);
 	i=1;
 	for(i=1;i<=2;i++)
      {
@@ -11,7 +11,7 @@ main(){
 		while(n>0) 
 		{
 			r=n%10;
-			sum=sum+r;  // 0+3
+			sum=sum+r;
 			n=n/10;
 		}
 		n=sum;
